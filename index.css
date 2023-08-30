@@ -1,0 +1,74 @@
+body {
+    
+    background-color: black;
+    font-family: "Allerta Stencil", sans-serif;
+    margin: 0;
+padding: 0;
+opacity: 1;
+}
+
+
+#vscode {
+    width: 100px;
+    height: 100px;
+}
+
+#google {
+    width: 100px;
+    height: 100px;
+}
+
+#git {
+    width: 100px;
+    height: 100px;
+}
+
+#node-js {
+    width: 100px;
+    height: 100px;
+}
+#node-red {
+    width: 100px;
+    height: 100px;
+}
+
+#atention {
+    width: 100px;
+    height: 100px;
+}
+
+
+#tittle {
+    text-align: center;
+    padding-left: 50px;
+    background-image: url(senai.gif);
+    padding: 2rem 0;
+    border-top: 6px solid black;
+    
+}
+
+.content{
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    background-color: brown;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    margin: 1rem;
+    text-align: center;
+
+}
+
+.card a{
+    text-decoration: none;
+    color: greenyellow;
+    font-weight: bold;
+}
+
+.card a:hover {
+    color: green;
+}
